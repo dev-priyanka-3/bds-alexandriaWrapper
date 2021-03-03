@@ -60,6 +60,6 @@ namespace AlexandriaWrapper.Helpers
             HttpResponseMessage messge = client.GetAsync(url).Result;
             client = null;
             return messge;
-        }
+         }
     }
 }
